@@ -1,0 +1,20 @@
+[2026-08-15 08:00:00] [ERROR] [SESSION_1001] [admin] [10.0.0.5] [AUTH] - Failed login attempt for user admin
+[2026-08-15 08:01:00] [ERROR] [SESSION_1002] [admin] [10.0.0.5] [AUTH] - Failed login attempt for user admin
+[2026-08-15 08:02:00] [ERROR] [SESSION_1003] [root] [10.0.0.5] [AUTH] - Failed login attempt for user root
+[2026-08-15 07:03:00] [INFO] [SESSION_1004] [yasmin] [10.0.0.8] [AUTH] - Successful login
+[2026-08-15 08:10:00] [INFO] [SESSION_2001] [yasmin] [192.168.1.10] [QUERY] - Executed query: SELECT * FROM accounts
+[2026-08-15 07:11:00] [INFO] [SESSION_2002] [admin] [192.168.1.11] [QUERY] - Executed query: UPDATE accounts SET balance=500
+[2026-08-15 08:12:00] [INFO] [SESSION_2003] [yasmin] [192.168.1.10] [QUERY] - Executed query: INSERT INTO accounts VALUES (1)
+[2026-08-15 08:13:00] [INFO] [SESSION_2004] [admin] [192.168.1.11] [QUERY] - Executed query: DELETE FROM accounts WHERE id=1
+[2026-08-15 08:14:00] [INFO] [SESSION_2005] [admin] [192.168.1.11] [QUERY] - Query execution failed
+[2026-08-15 09:20:00] [WARNING] [SESSION_3001] [yasmin] [192.168.1.10] [QUERY] - Slow query detected, execution time 5.2 seconds
+[2026-08-15 08:21:00] [WARNING] [SESSION_3002] [admin] [192.168.1.11] [QUERY] - Slow query detected, execution time 150ms
+[2026-08-15 08:30:00] [INFO] [SESSION_4001] [yasmin] [192.168.1.10] [TRANSACTION] - Deposit successful amount: 500.50
+[2026-08-15 08:31:00] [INFO] [SESSION_4002] [admin] [192.168.1.11] [TRANSACTION] - Withdrawal successful amount=200
+[2026-08-15 08:32:00] [ERROR] [SESSION_4003] [root] [192.168.1.12] [TRANSACTION] - Transaction declined
+[2026-08-15 08:33:00] [ERROR] [SESSION_4004] [root] [192.168.1.12] [TRANSACTION] - Transaction rollback due to system error
+[2026-08-15 08:40:00] [CRITICAL] [SESSION_5001] [admin] [192.168.1.11] [BACKUP] - Database backup failed
+[2026-08-15 08:41:00] [CRITICAL] [SESSION_5002] [root] [192.168.1.12] [TRANSACTION] - Transaction system failure
+[2026-08-15 08:00:00] [INFO] [SESSION_1001] [admin] [10.0.0.1] [AUTH] - Successful login
+[2026-08-15 08:10:00] [INFO] [SESSION_1001] [admin] [10.0.0.1] [QUERY] - SELECT * FROM accounts
+[2026-08-15 09:30:00] [INFO] [SESSION_1001] [admin] [10.0.0.1] [AUTH] - Logout

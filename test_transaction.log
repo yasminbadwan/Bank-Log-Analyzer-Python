@@ -1,0 +1,10 @@
+[2026-08-15 11:00:00] [INFO] [S1] [admin] [1.1.1.1] [TRANSACTION] - Deposit amount $500 completed
+[2026-08-15 11:01:00] [INFO] [S2] [admin] [1.1.1.1] [TRANSACTION] - Deposit amount $250.50 completed
+[2026-08-15 11:02:00] [INFO] [S3] [admin] [1.1.1.1] [TRANSACTION] - Deposit completed successfully
+[2026-08-15 11:03:00] [INFO] [S4] [teller01] [1.1.1.2] [TRANSACTION] - Withdrawal amount $200 completed
+[2026-08-15 11:04:00] [INFO] [S5] [teller01] [1.1.1.2] [TRANSACTION] - Withdraw amount 100.25 completed
+[2026-08-15 11:05:00] [WARNING] [S6] [admin] [1.1.1.1] [TRANSACTION] - Transaction declined
+[2026-08-15 11:06:00] [WARNING] [S7] [admin] [1.1.1.1] [TRANSACTION] - Another transaction declined
+[2026-08-15 11:07:00] [CRITICAL] [S8] [system] [1.1.1.3] [TRANSACTION] - Transaction rollback
+[2026-08-15 11:08:00] [CRITICAL] [S9] [system] [1.1.1.3] [TRANSACTION] - Emergency rollback
+[2026-08-15 11:09:00] [INFO] [S10] [admin] [1.1.1.1] [AUTH] - Deposit amount $999

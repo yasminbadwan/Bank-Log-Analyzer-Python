@@ -1,0 +1,9 @@
+[2026-08-15 09:00:00] [INFO] [S1] [admin] [1.1.1.1] [QUERY] - SELECT * FROM accounts
+[2026-08-15 09:01:00] [INFO] [S2] [admin] [1.1.1.1] [QUERY] - select name from users
+[2026-08-15 09:02:00] [INFO] [S3] [admin] [1.1.1.1] [QUERY] - UPDATE accounts SET balance=100
+[2026-08-15 09:03:00] [INFO] [S4] [admin] [1.1.1.1] [QUERY] - update users set active=1
+[2026-08-15 09:04:00] [INFO] [S5] [admin] [1.1.1.1] [QUERY] - INSERT INTO accounts VALUES (1)
+[2026-08-15 09:05:00] [INFO] [S6] [admin] [1.1.1.1] [QUERY] - DELETE FROM accounts WHERE id=1
+[2026-08-15 09:06:00] [INFO] [S7] [admin] [1.1.1.1] [QUERY] - COMMIT transaction
+[2026-08-15 09:07:00] [INFO] [S8] [admin] [1.1.1.1] [QUERY] - CREATE TABLE test
+[2026-08-15 09:08:00] [INFO] [S9] [admin] [1.1.1.1] [AUTH] - SELECT * FROM users

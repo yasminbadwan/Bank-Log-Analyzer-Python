@@ -1,0 +1,12 @@
+[2026-08-15 08:00:00] [ERROR] [S1] [unknown] [203.0.113.55] [AUTH] - Failed login attempt for user root
+[2026-08-15 08:01:00] [ERROR] [S2] [unknown] [203.0.113.55] [AUTH] - Failed login attempt for user root
+[2026-08-15 08:02:00] [ERROR] [S3] [unknown] [203.0.113.55] [AUTH] - Failed login attempt for user root
+[2026-08-15 08:03:00] [ERROR] [S4] [admin] [192.168.1.10] [AUTH] - Failed login attempt for user admin
+[2026-08-15 08:04:00] [ERROR] [S5] [admin] [192.168.1.10] [AUTH] - Failed login attempt for user admin
+[2026-08-15 08:05:00] [ERROR] [S6] [admin] [192.168.1.10] [AUTH] - Failed login attempt for user admin
+[2026-08-15 08:06:00] [ERROR] [S7] [teller01] [10.0.0.5] [AUTH] - Failed login attempt for user teller01
+[2026-08-15 08:07:00] [ERROR] [S8] [teller01] [10.0.0.5] [AUTH] - Failed login attempt for user teller01
+[2026-08-15 08:08:00] [INFO] [S9] [admin] [192.168.1.10] [AUTH] - Successful login
+[2026-08-15 08:09:00] [ERROR] [S10] [admin] [192.168.1.10] [AUTH] - Password expired
+[2026-08-15 08:10:00] [WARNING] [S11] [admin] [192.168.1.10] [AUTH] - Failed login attempt for user admin
+[2026-08-15 08:11:00] [ERROR] [S12] [admin] [192.168.1.10] [QUERY] - Failed login attempt

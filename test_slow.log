@@ -1,0 +1,8 @@
+[2026-08-15 10:20:00] [WARNING] [S4] [admin] [1.1.1.1] [QUERY] - Slow query took 3 seconds
+[2026-08-15 10:00:00] [WARNING] [S1] [admin] [1.1.1.1] [QUERY] - Slow query execution time 2500ms
+[2026-08-15 10:10:00] [WARNING] [S3] [teller01] [1.1.1.2] [QUERY] - Slow query detected
+[2026-08-15 10:05:00] [WARNING] [S2] [teller01] [1.1.1.2] [QUERY] - Slow query completed in 1.5 seconds
+[2026-08-15 10:25:00] [INFO] [S5] [admin] [1.1.1.1] [QUERY] - Slow query 9000ms
+[2026-08-15 10:30:00] [ERROR] [S6] [admin] [1.1.1.1] [QUERY] - Slow query 6000ms
+[2026-08-15 10:35:00] [WARNING] [S7] [admin] [1.1.1.1] [AUTH] - Slow query 5000ms
+[2026-08-15 10:40:00] [WARNING] [S8] [admin] [1.1.1.1] [QUERY] - Query took 7 seconds

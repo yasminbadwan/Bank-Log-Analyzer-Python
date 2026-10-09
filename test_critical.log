@@ -1,0 +1,6 @@
+[2026-08-15 12:30:00] [CRITICAL] [S4] [admin] [4.4.4.4] [AUTH] - Critical authentication failure
+[2026-08-15 12:00:00] [CRITICAL] [S1] [system] [1.1.1.1] [BACKUP] - Backup failed
+[2026-08-15 12:20:00] [CRITICAL] [S3] [teller01] [3.3.3.3] [TRANSACTION] - Transaction rollback
+[2026-08-15 12:10:00] [CRITICAL] [S2] [admin] [2.2.2.2] [QUERY] - Database unavailable
+[2026-08-15 12:40:00] [ERROR] [S5] [admin] [5.5.5.5] [BACKUP] - Backup failed
+[2026-08-15 12:50:00] [WARNING] [S6] [admin] [6.6.6.6] [QUERY] - Slow query

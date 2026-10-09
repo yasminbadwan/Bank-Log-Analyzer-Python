@@ -1,0 +1,13 @@
+[2026-08-15 08:00:00] [INFO] [S1] [admin] [1.1.1.1] [AUTH] - Successful login
+[2026-08-15 08:01:00] [INFO] [S2] [admin] [1.1.1.1] [QUERY] - SELECT * FROM users
+[2026-08-15 08:02:00] [WARNING] [S3] [admin] [1.1.1.1] [QUERY] - Slow query 2s
+[2026-08-15 08:03:00] [WARNING] [S4] [admin] [1.1.1.1] [AUTH] - Warning
+[2026-08-15 08:04:00] [ERROR] [S5] [unknown] [2.2.2.2] [AUTH] - Failed login attempt
+[2026-08-15 08:05:00] [ERROR] [S6] [unknown] [2.2.2.2] [QUERY] - Query failed
+[2026-08-15 08:06:00] [CRITICAL] [S7] [system] [3.3.3.3] [BACKUP] - Backup failed
+[2026-08-15 08:07:00] [CRITICAL] [S8] [system] [3.3.3.3] [TRANSACTION] - Transaction rollback
+BROKEN LINE
+[2026-99-99 08:08:00] [INFO] [S9] [admin] [1.1.1.1] [AUTH] - Successful login
+[2026-08-15 08:09:00] [INFO] [S10] [admin] [1.1.1.1] [BACKUP] - Backup complete
+[2026-08-15 08:10:00] [INFO] [S11] [admin] [1.1.1.1] [TRANSACTION] - Deposit amount $100
+

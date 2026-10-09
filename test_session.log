@@ -1,0 +1,7 @@
+[2026-08-15 15:30:00] [INFO] [SESSION_2] [teller01] [2.2.2.2] [AUTH] - Successful login
+[2026-08-15 14:45:30] [INFO] [SESSION_1] [admin] [1.1.1.1] [AUTH] - Logout
+[2026-08-15 14:00:00] [INFO] [SESSION_1] [admin] [1.1.1.1] [AUTH] - Successful login
+[2026-08-15 13:00:00] [INFO] [SESSION_ORPHAN] [ghost] [3.3.3.3] [AUTH] - Logout
+[2026-08-15 16:00:00] [INFO] [SESSION_3] [admin] [1.1.1.1] [AUTH] - Successful login
+[2026-08-15 16:20:00] [INFO] [SESSION_3] [admin] [1.1.1.1] [QUERY] - SELECT * FROM accounts
+[2026-08-15 17:00:00] [ERROR] [SESSION_4] [unknown] [4.4.4.4] [AUTH] - Failed login attempt
